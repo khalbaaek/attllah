@@ -1,0 +1,74 @@
+body{direction: rtl; text-align: right;}
+#search-header{left: unset; right:150px}
+#header-search-section .btn{right: unset; left:4px}
+#header-search-section .search-header-field {padding: 15px 20px 15px 60px;}
+#search-header #search-home-box #search-field{padding: 15px 20px 15px 60px;}
+#header-search-section #search-field{padding: 15px 20px 15px 60px;}
+#search-home-box .btn{right:unset; left:6px}
+
+.search-history-list .search-history-icon{margin: 0 0 0 10px;}
+.search-history-list{margin-right: unset; margin-left: 40px;}
+.ui-autocomplete li .search-result-thumb{margin: 0 0 0 10px;}
+
+#search-field{padding: 15px 20px 15px 60px;}
+#change-location-btn .flags{margin: 7px 7px 3px 0;}
+#change-location-btn .flags-round-small{margin: 8px 10px 3px 0}
+
+#location-secondary-header-menu #location-selection-menu{left:unset; right: 0%;}
+#top-activities-selection-menu{left:unset; right: 0%;}
+#currency-selection-menu ul li label span{margin: 0 0 0 10px;}
+
+#activity-hero-banner #hero-banner-info{left:unset; right:40px}
+
+
+#user-menu{right:unset; left:0%; text-align: right;}
+
+#user-menu:before {right:unset; left:10px}
+#location-selection-menu{right:unset; left:0%}
+#currency-selection-menu{right:unset; left:0%}
+#currency-selection-menu:before {right:unset; left:20px}
+.package-title-section{padding: 0 0 0 30px;}
+#package-single-tags span{margin:0 10px 0 0}
+.package-box .points-earned{left:unset; right:10px}
+#view-button-all-images{right:unset; left: 10px;}
+.package-sidebar .t-box{right: unset; left:0% !important}
+.package-sidebar .t-box .discount{right:unset; left:40px}
+#activity-list-sidebar-section{border-right:unset; border-left:1px solid #CFDAE6}
+.toggle-filter-chk{right:unset; left:0%}
+#range .noUi-handle{right: unset;}
+.package-box .package-box-thumb .provider-thumb{right:unset; left:10px}
+
+.top-location-box span.count{left: unset; right: -15px;}
+.package-box-country{margin: 7px 0 0 10px;}
+.package-sidebar .t-box{text-align: right;}
+.accordion-button::after{position: absolute; left: 0%;}
+#calendar-booking-icon svg{right: unset; left: 18px;}
+#customer-info-box .edit-btn{right:unset; left:20px}
+#type-links-btn-section a.me-2{margin-right: unset !important; margin-left: 0.5rem !important;}
+
+#customer-info-box .edit-btn{right: unset !important; left: 20px !important;}
+#voucher-code-apply svg{right:unset !important; left:10px !important}
+
+.cart-item .remove-item{right:unset !important; left: 10px !important;}
+#watch-client-video-section{background-position: left !important;}
+
+.rtl .text-end{text-align: left !important;}
+#close-pop-footer{right:unset; left:-22px}
+.phone-app{right:unset; left:30px}
+#grow-ticket-box .top-circle{right:unset; left:0px}
+#grow-ticket-box .bottom-circle{right:unset; left:0px}
+#grow-ticket-box .border-line{right:unset; left:50px}
+.effect-app{right: unset; left:51px; rotate: 180deg; bottom:-122px}
+#pop-footer-left{border-right:unset !important; border-left:2px solid #ECF4FD}
+.footer-img-obj1{right:unset; left:0%; rotate: 90deg;}
+.footer-img-obj2{right:unset; left: 100px;}
+
+@media screen and (min-width: 120px) and (max-width: 768px) {
+    #close-pop-footer{right: unset; left:12px}
+    #pop-footer-btns{right:unset; left: 4%;}
+    #menu-mobile-location{left: unset; right: 40px;}
+    .mobile-check-availability .discount{right:unset; left:0%}
+    #btn-mobile-search-icon{margin-right:unset !important; margin-left:0.5rem !important}
+    #btn-login-icon{margin-left:unset !important; margin-right:1rem !important}
+    #activity-hero-banner #hero-banner-info{left:unset; right:20px}
+}
